@@ -1,7 +1,7 @@
 WordPress High Availability Deployment Project
 
+Overview:
 
-Overview
 Web applications typically need to scale continuously in response to the varying rate of requests they receive and to achieve the availability levels required. To reach its availability targets, an application might need to run out of multiple locations and continue to function as components, servers, or even locations fail.
 In this project, I have created a highly available, scalable deployment of the WordPress web application. I have deployed a WordPress application in such a way that the application server, database, and file server tiers can scale independently of one another. I will also deploy the application's components into two availability zones to protect it against failure of any one availability zone. 
 
