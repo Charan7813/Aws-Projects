@@ -7,6 +7,8 @@ JavaScript, and CSS. The code is hosted on GitHub, and the deployment is managed
 through AWS services, including S3 for static website hosting and Code Pipeline for 
 continuous deployment.
 
+![Diagram](diagram-export-28-05-2024-10_55_57.png)
+
 Features
  Meme Card Game: Flip the cards to find matching pairs of memes.
 Responsive Design: The game is playable on various device sizes.
@@ -48,6 +50,8 @@ Build Stage: Skip the build stage (not required for static websites).
 Deploy Stage: Choose "Amazon S3" and select the bucket you created 
 earlier.
 4. Review and create the pipeline.
+
+![Deploy Success](Deploy%2Sucess.png)
    
  Test the Deployment
 1. Make a change to your repository on GitHub (e.g., update the README or modify a 
@@ -55,3 +59,5 @@ file).
 2. Push the changes to GitHub.
 3. Code Pipeline will automatically trigger and deploy the changes to the S3 bucket.
 4. Access your game using the S3 bucket endpoint URL
+
+![Final Game](Final%20Game.png)
